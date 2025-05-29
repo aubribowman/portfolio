@@ -49,6 +49,10 @@ nav {
     padding: var(--spacing-3) 0;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 .nav-list {
     display: flex;
     list-style: none;
@@ -124,7 +128,16 @@ section {
   flex-wrap: wrap;
 }
 
-.skill-icon {
+#contact-container {
+  display: flex;
+  gap: 1.5rem;
+  width: 100%;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+}
+
+.skill-icon,
+.icon {
   width: 40px;
   height: 40px;
   object-fit: contain;
@@ -138,7 +151,8 @@ section {
 
 
 #projects h2,
-#skills h2{
+#skills h2,
+#contact h2 {
     color: var(--logo-color);
 }
 
