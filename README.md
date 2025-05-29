@@ -6,4 +6,3 @@ This is the source code for my portfolio website. I built this to showcase all t
 
 * HTML
 * CSS
-* JavaScript
